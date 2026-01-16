@@ -8,9 +8,9 @@ function soma() {
 
     console.log("clicou soma", resultado);
 
-    let strong = document.getElementById("resultado");
+    let resultadoHtml = document.getElementById('resultado');
 
-    strong.innerHTML = strong.innerHTML + resultado;
+    resultadoHtml.innerHTML = resultado;
 }
 
 
