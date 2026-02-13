@@ -33,6 +33,7 @@ const pessoa = {
 }
 
 // criando um objeto vazio
+//let turma = {}
 let turma = {
     nome: 'FS36-Sul',
     professor: 'Angelo',
@@ -40,3 +41,22 @@ let turma = {
     modulo: 'Lógica',
     nome: 'teste'
 }
+
+//incluir atributos/propriedade/chave ao objeto
+console.log(turma.sede);
+
+console.log(turma);
+
+//imprimir todos as propriedades do objeto
+const properties = Object.keys(turma)
+console.log(properties);
+
+//imprimir todos os valores do objeto
+const values = Object.values(turma)
+console.log(values);
+
+
+
+
+
+
