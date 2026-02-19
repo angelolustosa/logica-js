@@ -11,6 +11,9 @@ const filmesFavoritos = [
   'A Hora do Rush'
 ]
 
-filmesFavoritos.map(function(item, index, array) {
-    console.log(`${index+1}º Elemento: ${item}`)
+const filmes2 = filmesFavoritos.map(function(item, index, array) {
+    //console.log(`${index+1}º Elemento: ${item}`)
+    return `${index+1}º Elemento: ${item}`
 })
+
+console.log(filmesFavoritos, filmes2)
